@@ -198,7 +198,7 @@ async function extractTextFromPDF(pdfPath) {
 
 
 //formatter/summarizer - utility 
-async function formatText(rawText,userPrompt){
+async function formatText(rawText,userPrompt,startNumber){
     const prompt=`You are an AI text cleaner and formatter.
 
 Rules:
@@ -208,6 +208,7 @@ Rules:
 - Do not output JSON or code blocks.
 - Format nicely with clear labels (e.g., "Question 1:", "Option A:", "Answer:", etc. when MCQs are requested).
 - Do not add extra explanations beyond what was requested.
+- Start numbering questions at "Question ${startNumber}:" and continue sequentially without restarting within this chunk.
 
 User Query:
 ${userPrompt}
@@ -270,13 +271,36 @@ function saveOutputToHtml(text, filename = 'output.html') {
   console.log(`Output saved to ${filename}`);
 }
 
+//Helper function:split text into safe chunks for gemini
+function chunkText(text, maxLen=4000){
+  const parts=[];
+  let current="";
+  for(const line of text.split("\n")){
+    if((current+line).length>maxLen){
+      parts.push(current);
+      current=line+"\n";
+    } else {
+      current+=line+"\n";
+    }
+  }
+  if(current.trim()) parts.push(current);
+  return parts;
+}
+
+//Helper function:Count how many "Question" the model produced
+function countQuestions(text){
+  let count=0;
+  const re=/Question\s*\d+\s*:/gi;
+  while(re.exec(text)) count++;
+  return count;
+}
+
 //main function
 async function main(){
     try{
         //extracting the text from pdf
         const text=await extractTextFromPDF(pathPDF);
         console.log("Extracted Text:\n",text);
-
 
         //getting input 
         const rl=readline.createInterface({
@@ -286,11 +310,19 @@ async function main(){
 
         //taking input of user query 
         rl.question("Enter your query:\n",async(userPrompt)=>{
-            const output=await formatText(text,userPrompt);
-            saveOutputToHtml(output);
-            console.log("\nThe output:\n",output);
-
-               rl.close();
+            const chunks=chunkText(text);
+            let finalOutput="";
+            let nextNumber=1;
+            for(let i=0;i<chunks.length;i++){
+                console.log(`\n--- Processing Chunk ${i+1}/${chunks.length} ---`);
+                const out=await formatText(chunks[i],userPrompt,nextNumber);
+                console.log(`Chunk ${i+1} Output:\n`,out);
+                finalOutput+=out+"\n\n";
+                nextNumber += countQuestions(out);
+            }
+            saveOutputToHtml(finalOutput);
+            console.log("\nFinal Output Combined:\n",finalOutput);
+            rl.close();
         })
 
      
@@ -301,4 +333,3 @@ async function main(){
 }
 
 main();
-
