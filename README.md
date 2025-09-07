@@ -1,4 +1,4 @@
-# 📄 Node PDF & Image Summarizer
+#  Node PDF & Image Summarizer
 
 > **Note:** The express server was just for scaffolding, the main code lies in scripts folder.
 
