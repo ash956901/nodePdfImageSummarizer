@@ -2,9 +2,9 @@
 const fs=require("fs");
 //importing tesseract.js lib for ocr
 const {createWorker} = require('tesseract.js');
-//importing google gen ai lib
-const {GoogleGenAI}=require("@google/genai");
-//env injection
+// Importing Google Generative AI
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+// env injection
 require("dotenv").config();
 //import readline to get input for cli version
 const readline=require("readline");
@@ -16,8 +16,8 @@ if(!pathImage){
     process.exit(1);
 }
 
-//instantiate the gemini model
-const gemini=new GoogleGenAI({apiKey:process.env.GEMINI_KEY});
+// Instantiate the Gemini model
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_KEY);
 
 //image ocr utility  
 async function extractTextFromImage(pathImage){
@@ -50,32 +50,68 @@ async function extractTextFromImage(pathImage){
 
 }
 
+// Helper function to clean JSON response
+function cleanJsonResponse(text) {
+    return text
+        .replace(/```json/gi, "")
+        .replace(/```/g, "")
+        .trim();
+}
+
 //formatter/summarizer - utility 
-async function formatText(rawText,userPrompt){
-    const prompt=`You are an AI text cleaner and formatter.
+async function formatText(rawText, userPrompt, startNumber = 1) {
+    try {
+        const prompt = `Extract questions and answers from the following text in the format specified below. 
+        If the text is in Hindi, translate it to English before processing.
+        
+        Text: """${rawText}"""
+        
+        Format the output as a JSON array of objects with the following structure:
+        [
+            {
+                "question": "The question text",
+                "options": ["Option 1", "Option 2", ...],
+                "answer": "The correct answer",
+                "explanation": "Explanation for the answer"
+            },
+            ...
+        ]
+        
+        ${userPrompt ? `Additional instructions: ${userPrompt}` : ''}
+        `;
 
-Rules:
-- Input will contain noisy PDF text with watermarks, headers, and irrelevant content. Remove all of that.
-- Follow the user’s query strictly (e.g., if they ask for MCQs, give only MCQs; if they ask for summary, give only clean summary).
-- Always return clean, human-readable text.
-- Do not output JSON or code blocks.
-- Format nicely with clear labels (e.g., "Question 1:", "Option A:", "Answer:", etc. when MCQs are requested).
-- Do not add extra explanations beyond what was requested.
-
-User Query:
-${userPrompt}
-
-Extracted Text:
-${rawText}
-
-`
-
-    const response=await gemini.models.generateContent({
-        model:"gemini-2.5-flash",
-        contents:prompt,
-    });
-
-return response.text || "" ;
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+        const result = await model.generateContent(prompt);
+        const rawResponse = result.response.text() || "{}";
+        
+        // Clean the response before parsing
+        const cleanedResponse = cleanJsonResponse(rawResponse);
+        
+        // Try to parse the JSON response
+        try {
+            const result = JSON.parse(cleanedResponse);
+            return {
+                success: true,
+                results: Array.isArray(result) ? result : [result],
+                startNumber: startNumber
+            };
+        } catch (e) {
+            console.error("Error parsing JSON response:", e);
+            console.log("Cleaned response:", cleanedResponse);
+            return {
+                success: false,
+                error: "Failed to parse JSON response",
+                rawText: cleanedResponse
+            };
+        }
+    } catch (error) {
+        console.error("Error in formatText:", error);
+        return {
+            success: false,
+            error: error.message,
+            rawText: rawText
+        };
+    }
 }
 
 //Write to html --> for console limitations of rendering other languages 
@@ -123,6 +159,12 @@ function saveOutputToHtml(text, filename = 'output.html') {
   console.log(`Output saved to ${filename}`);
 }
 
+// Save output as JSON file
+function saveOutputToJson(obj, filename = 'output.json') {
+  fs.writeFileSync(filename, JSON.stringify(obj, null, 2), "utf-8");
+  console.log(`✅ JSON output saved to ${filename}`);
+}
+
 //main function
 async function main(){
     try{
@@ -138,11 +180,11 @@ async function main(){
         });
 
         //taking input of user query 
-        rl.question("Enter your query:\n",async(userPrompt)=>{
-            const output=await formatText(text,userPrompt);
-            saveOutputToHtml(output);
-            console.log("\nThe output:\n",output);
-               rl.close();
+        rl.question("Enter your query:\n", async (userPrompt) => {
+            const out = await formatText(text, userPrompt);
+            saveOutputToJson(out, 'output.json');
+            console.log("\nFinal JSON:\n", JSON.stringify(out, null, 2));
+            rl.close();
         })
 
 

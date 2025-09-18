@@ -1,0 +1,683 @@
+{
+  "results": [
+    {
+      "question": "Seema visited a Natural Gas Compressing Unit and found that the gas can be liquefied under specific conditions of temperature and pressure. While sharing her experience with friends she got confused. Help her to identity the correct set of conditions.",
+      "options": [
+        "Low temperature, low pressure",
+        "High temperature, low pressure",
+        "Low temperature, high pressure",
+        "High temperature, high pressure"
+      ],
+      "answer": "Low temperature, high pressure",
+      "explanation": null
+    },
+    {
+      "question": "Which of the following are physical changes?\n(i) Melting of iron metal\n(ii) Rusting of iron\n(iii) Bending of an iron rod\n(iv) Drawing a wire of iron metal",
+      "options": [
+        "(i), (ii) and (iii)",
+        "(i), (ii) and (iv)",
+        "(i), (iii) and (iv)",
+        "(ii), (iii) and (iv)"
+      ],
+      "answer": "(i), (iii) and (iv)",
+      "explanation": null
+    },
+    {
+      "question": "Which one of the following has maximum number of atoms?",
+      "options": [
+        "18 g of H   2   O",
+        "18 g of O   2",
+        "18 g of CO   2",
+        "18 g of CH   4"
+      ],
+      "answer": "18 g of CH   4",
+      "explanation": null
+    },
+    {
+      "question": "In a sample of ethyl ethanoate (CH   3   COOC 2   H5   ) the two oxygen atoms have the same number of electrons but different number of neutrons. Which of the following is the correct reason for it?",
+      "options": [
+        "One of the oxygen atoms has gained electrons",
+        "One of the oxygen atoms has gained two neutrons",
+        "The two oxygen atoms are isotopes",
+        "The two oxygen atoms are isobars."
+      ],
+      "answer": "The two oxygen atoms are isotopes",
+      "explanation": null
+    },
+    {
+      "question": "A cell will swell up if",
+      "options": [
+        "the concentration of water molecules in the cell is higher than the concentration of water molecules in surrounding medium",
+        "the concentration of water molecules in surrounding medium is higher than water molecules concentration in the cell.",
+        "the concentration of water molecules is same in the cell and in the surrounding medium",
+        "concentration of water molecules does not matter"
+      ],
+      "answer": "the concentration of water molecules in surrounding medium is higher than water molecules concentration in the cell.",
+      "explanation": null
+    },
+    {
+      "question": "Survival of plants in terrestrial environment has been made possible by the presence of",
+      "options": [
+        "intercalary meristem",
+        "conducting tissue",
+        "apical meristem",
+        "parenchymatous tissue"
+      ],
+      "answer": "conducting tissue",
+      "explanation": null
+    },
+    {
+      "question": "In which group of animals coelom is filled with blood?",
+      "options": [
+        "Arthropoda",
+        "Annelida",
+        "Nematoda",
+        "Echinodermata"
+      ],
+      "answer": "Arthropoda",
+      "explanation": null
+    },
+    {
+      "question": "Organisms without nucleus and cell organelles belong to",
+      "options": [
+        "fungi",
+        "protista",
+        "algae",
+        "bacteria"
+      ],
+      "answer": "bacteria",
+      "explanation": null
+    },
+    {
+      "question": "Which cells do not have perforated cell walls?",
+      "options": [
+        "Tracheids",
+        "Companion cells",
+        "Sieve tubes",
+        "Vessels"
+      ],
+      "answer": "Companion cells",
+      "explanation": null
+    },
+    {
+      "question": "The numerical ratio of displacement to distance covered by a moving object is",
+      "options": [
+        "always less than 1",
+        "always equal to 1",
+        "always more than 1",
+        "equal or less than 1"
+      ],
+      "answer": "equal or less than 1",
+      "explanation": null
+    },
+    {
+      "question": "According to the third law of motion, action and reaction",
+      "options": [
+        "always act on the same body",
+        "always act on different bodies in opposite directions",
+        "have same magnitude and direction",
+        "act on either body at normal to each other"
+      ],
+      "answer": "always act on different bodies in opposite directions",
+      "explanation": null
+    },
+    {
+      "question": "The value of acceleration due to gravity (a) is",
+      "options": [
+        "least on equator",
+        "is least on poles",
+        "is same on equator and poles",
+        "increases from pole to equator"
+      ],
+      "answer": "least on equator",
+      "explanation": "The acceleration due to gravity is least at the equator because the Earth bulges at the equator, increasing the distance from the center of the Earth."
+    },
+    {
+      "question": "The gravitational force between two objects is F. If the masses of both objects are halved without changing distance between them, then the gravitational force would become",
+      "options": [
+        "F / 4",
+        "F / 2",
+        "F",
+        "2F"
+      ],
+      "answer": "F / 4",
+      "explanation": "The gravitational force is proportional to the product of the masses. If both masses are halved, the product becomes (1/2) * (1/2) = 1/4, so the force becomes F / 4."
+    },
+    {
+      "question": "Among the given options, which one is not correct for the use of large amount of fertilisers and pesticides?",
+      "options": [
+        "They are eco-friendly",
+        "They turn the fields barren after some time",
+        "They remove the useful component from the soil",
+        "They destroy the soil fertility"
+      ],
+      "answer": "They are eco-friendly",
+      "explanation": "Fertilizers and pesticides are generally harmful to the environment because of the chemicals in them that can kill other beneficial organisms in the surrounding, and can remain in the soil for long periods. "
+    },
+    {
+      "question": "Find out the correct sentence",
+      "options": [
+        "(i) and (iii)",
+        "(ii) and (iv)",
+        "(ii) and (iii)",
+        "(iii) and (iv)"
+      ],
+      "answer": "(i) and (iii)",
+      "explanation": "(i) Hybridisation means crossing between genetically dissimilar plants. (iii) Introducing genes of desired character into a plant gives genetically modified crop."
+    },
+    {
+      "question": "Find out the correct sentence about manure",
+      "options": [
+        "(i) and (iii)",
+        "(i) and (ii)",
+        "(ii) and (iii)",
+        "(iii) and (iv)"
+      ],
+      "answer": "(i) and (ii)",
+      "explanation": "(i) Manure contains large quantities of organic matter and small quantities of nutrients. (ii) It increases the water holding capacity of sandy soil."
+    },
+    {
+      "question": "‘Osmosis is a special kind of diffusion’. Comment.",
+      "options": [],
+      "answer": null,
+      "explanation": "Osmosis is a special kind of diffusion because it involves the movement of solvent molecules (usually water) across a semi-permeable membrane from a region of higher water concentration to a region of lower water concentration."
+    },
+    {
+      "question": "Give the chemical formulae for the following compounds and compute the ratio by mass of the combining elements in each one of them. (a) Ammonia (b) Carbon monoxide (c) Hydrogen chloride (d) Aluminium fluoride",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Write the molecular formulae for the following compounds (a) Aluminium (III) nitrate (b) Calcium (II) phosphate (c) Mercury (II) chloride (d) Magnesium (II) acetate",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Helium atom has 2 electrons in its valence shell but its valency is not 2, Explain.",
+      "options": [],
+      "answer": null,
+      "explanation": "Helium is stable with only 2 electrons in its outermost shell (duplet rule). Since it already has a full valence shell, it doesn't need to gain, lose, or share electrons to achieve stability. Therefore, its valency is 0, not 2."
+    },
+    {
+      "question": "If a person takes concentrated solution of salt. After sometime, he starts vomiting. What is the phenomenon responsible for such situation? Explain.",
+      "options": [],
+      "answer": null,
+      "explanation": "The phenomenon responsible is osmosis. A concentrated salt solution is hypertonic compared to the cells in the body. Water moves out of the cells into the gut via osmosis to try to dilute the salt solution. This causes cells to shrink, potentially leading to dehydration and irritation of the stomach lining, resulting in vomiting."
+    },
+    {
+      "question": "Differentiate the following activities on the basis of voluntary or involuntary muscles. (a) Jumping of frog (b) Pumping of the heart (c) Writing with hand (d) Movement of chocolate in your intestine",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Water hyacinth float on water surface. Explain.",
+      "options": [],
+      "answer": null,
+      "explanation": "Water hyacinth floats on the water surface because it has air-filled spongy petioles that provide buoyancy."
+    },
+    {
+      "question": "Which bacterium causes peptic ulcers? Who discovered the above pathogen for the first time?",
+      "options": [],
+      "answer": null,
+      "explanation": "The bacterium that causes peptic ulcers is Helicobacter pylori. Barry Marshall and Robin Warren are credited with discovering the link between H. pylori and peptic ulcers."
+    },
+    {
+      "question": "Give reasons for (a) Meristematic cells have a prominent nucleus and dense cytoplasm but they lack vacuole. (b) Intercellular spaces are absent in sclerenchymatous tissues. (c) We get a crunchy and granular feeling, when we chew pear fruit. (d) Branches of a tree move and bend freely in high wind velocity.",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "A motorcyclist drives from point A to point B with a uniform speed of 30 km h –1 and returns back to point A with a uniform speed of 20 km h –1 . Find the average speed of the motorcyclist.",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Calculate the acceleration and the frictional force of the floor on the ball?",
+      "options": [],
+      "answer": "The answer is based on the velocity vs time graph (not provided in the text). Acceleration can be calculated from the slope of the graph, and frictional force can be calculated using F = ma, where m = 50g.",
+      "explanation": "This question requires analyzing a graph that is not available in the given text. The acceleration is the rate of change of velocity (slope of the v-t graph). Once the acceleration is known, the frictional force can be calculated."
+    },
+    {
+      "question": "Will the packet float or sink in a saturated salt solution, if the density of the solution is 1.2 g cm –3 ?",
+      "options": [],
+      "answer": "The packet will sink. Density of packet = mass/volume = 500g/350cm^3 = 1.43 g/cm^3. Since density of packet > density of solution, the packet will sink.",
+      "explanation": "An object floats if its density is less than the density of the fluid it is placed in. Here, we calculate the density of the packet and compare it with the density of the salt solution."
+    },
+    {
+      "question": "What will be the mass of the solution displaced by this packet?",
+      "options": [],
+      "answer": "Mass of the solution displaced = Volume of packet * Density of solution = 350 cm^3 * 1.2 g/cm^3 = 420 g",
+      "explanation": "Archimedes' principle states that the buoyant force on an object is equal to the weight of the fluid displaced by the object.  The mass of displaced fluid is equal to the volume of the object submerged multiplied by the density of the fluid."
+    },
+    {
+      "question": "Why step farming is common in hills?",
+      "options": [],
+      "answer": "Step farming is common in hills to reduce soil erosion and conserve water.",
+      "explanation": "Step farming (terracing) creates level platforms on slopes, which reduces the runoff of water and soil, thereby minimizing erosion."
+    },
+    {
+      "question": "Fertile soil has lots of humus. Why?",
+      "options": [],
+      "answer": "Humus enriches the soil with nutrients and improves its water-holding capacity and aeration, making it fertile.",
+      "explanation": "Humus is decomposed organic matter. It provides essential nutrients for plant growth, improves soil structure, and enhances water retention and drainage."
+    },
+    {
+      "question": "List out some useful traits in improved crop.",
+      "options": [],
+      "answer": "Some useful traits in improved crops include higher yield, disease resistance, pest resistance, shorter maturity duration, and improved quality.",
+      "explanation": "Improved crops are bred or genetically modified to have characteristics that make them more productive and resilient."
+    },
+    {
+      "question": "Arrange these statements in correct sequence of preparation of green manure. (a) Green plants are decomposed in soil. (b) Green plants are cultivated for preparing manure or crop plant parts are used. (c) Plants are ploughed and mixed into the soil. (d) After decomposition it becomes green manure.",
+      "options": [],
+      "answer": "The correct sequence is b -> c -> a -> d.",
+      "explanation": "The process of preparing green manure starts with cultivating green plants or using crop plant parts (b), followed by ploughing and mixing them into the soil (c). The plants then decompose in the soil (a), and after decomposition, they become green manure (d)."
+    },
+    {
+      "question": "Write about its merits on other varieties.",
+      "options": [],
+      "answer": "Apis mellifera produces more honey, has a better honey-collecting capacity, stings less, and stays in a given beehive for long periods, and breeds very well.",
+      "explanation": "Apis mellifera has several advantages over native bee varieties, making it a more efficient honey producer."
+    },
+    {
+      "question": "Explain why the milk sample was illuminated. Name the phenomenon involved.",
+      "options": [],
+      "answer": "The milk sample was illuminated due to the scattering of light by the colloidal particles in the milk. This phenomenon is called the Tyndall effect.",
+      "explanation": "The Tyndall effect is the scattering of light by particles in a colloid or suspension. Milk is a colloid, and the fat and protein particles scatter the light, making the beam visible."
+    },
+    {
+      "question": "Same results were not observed with a salt solution. Explain.",
+      "options": [],
+      "answer": "Salt solution is a true solution.  The particles are too small to scatter light.",
+      "explanation": "In a true solution, the solute particles are much smaller than the wavelength of light and do not scatter the light. Therefore, the light passes through without being significantly scattered."
+    },
+    {
+      "question": "Can you suggest two more solutions which would show the same effect as shown by the milk solution?",
+      "options": [],
+      "answer": "Two more solutions that would show the Tyndall effect are starch solution and soap solution.",
+      "explanation": "Starch and soap solutions are colloidal solutions, meaning they contain particles large enough to scatter light."
+    },
+    {
+      "question": "Are the two solutions of the same concentration?",
+      "options": [],
+      "answer": "No, the two solutions are not of the same concentration.",
+      "explanation": "Ramesh's solution is 10g sugar in 110g solution. Sarika's solution is 10g sugar in 100g solution. The concentrations will be different."
+    },
+    {
+      "question": "Compare the mass % of the two solutions.",
+      "options": [],
+      "answer": "Ramesh's solution: (10g/110g) * 100 = 9.09%. Sarika's solution: (10g/100g) * 100 = 10%.",
+      "explanation": "Mass percentage is calculated as (mass of solute/mass of solution) * 100. We calculate the mass percentage for each solution and compare them."
+    },
+    {
+      "question": "Why do some children fall ill more frequently than others living in the same locality?",
+      "options": [],
+      "answer": "Some children fall ill more frequently due to factors such as weaker immune systems, poor nutrition, lack of hygiene, exposure to pathogens, and genetic predisposition.",
+      "explanation": "Susceptibility to illness depends on a combination of factors related to individual health, environmental conditions, and exposure to infectious agents."
+    },
+    {
+      "question": "Give any four factors necessary for a healthy person.",
+      "options": [],
+      "answer": "Four factors necessary for a healthy person are balanced diet, regular exercise, proper hygiene, and good mental health.",
+      "explanation": "Maintaining good health requires attention to physical, mental, and social well-being."
+    },
+    {
+      "question": "Define power.",
+      "options": [],
+      "answer": "Power is defined as the rate at which work is done or energy is transferred.",
+      "explanation": "Power is a measure of how quickly energy is used or work is performed."
+    },
+    {
+      "question": "How will you differentiate between kW and kW h?",
+      "options": [],
+      "answer": "kW (kilowatt) is a unit of power, representing the rate of energy transfer. kWh (kilowatt-hour) is a unit of energy, representing the amount of energy used over a period of time.",
+      "explanation": "kW measures instantaneous power, while kWh measures total energy consumption."
+    },
+    {
+      "question": "If the velocity of a ball is tripled, what will be the ratio of (a) its initial kinetic energy and final kinetic energy",
+      "options": [],
+      "answer": "The ratio of initial to final kinetic energy is 1:9. KE = 1/2 mv^2. If v is tripled, KE becomes 9 times the initial value.",
+      "explanation": "Kinetic energy is proportional to the square of velocity. Therefore, tripling the velocity increases the kinetic energy by a factor of 9."
+    },
+    {
+      "question": "(b) initial momentum and final momentum.",
+      "options": [],
+      "answer": "The ratio of initial to final momentum is 1:3. Momentum = mv. If v is tripled, momentum becomes 3 times the initial value.",
+      "explanation": "Momentum is directly proportional to velocity.  Therefore, tripling the velocity triples the momentum."
+    },
+    {
+      "question": "How much work the men do in lifting the box?",
+      "options": [],
+      "answer": "Work done in lifting the box = Force x distance = mgh = 250 kg * 10 m/s^2 * 1 m = 2500 J",
+      "explanation": "Work done against gravity is equal to the change in potential energy, which is mgh."
+    },
+    {
+      "question": "How much work do they do in just holding it?",
+      "options": [],
+      "answer": "Work done in just holding the box is 0 J, because there is no displacement.",
+      "explanation": "Work is done only when there is displacement in the direction of the force. Since the box is not moving, no work is done."
+    },
+    {
+      "question": "Why do they get tired while holding it?",
+      "options": [],
+      "answer": "They get tired because their muscles are contracting and relaxing to maintain the force needed to hold the box, even though no overall displacement occurs. This muscle activity requires energy.",
+      "explanation": "Holding the box requires continuous muscle activity to counteract gravity, leading to fatigue even though no external work is being done."
+    },
+    {
+      "question": "(a) Explain how ‘echo’ is produced.",
+      "options": [],
+      "answer": "An echo is produced when a sound wave bounces off a hard surface and returns to the listener.",
+      "explanation": "Echoes are a result of the reflection of sound waves."
+    },
+    {
+      "question": "(b) What should be the minimum distance between the listener and the reflector to hear an echo of sound propagating with a speed v m s –1 ?",
+      "options": [],
+      "answer": "The minimum distance should be v/2t, where t is the time interval of persistence of hearing, generally taken as 0.1 s.  So, the distance is v * 0.1 / 2 = v/20.",
+      "explanation": "The sound must travel to the reflecting surface and back to the listener.  The time for this round trip must be long enough for the listener to distinguish the echo from the original sound."
+    },
+    {
+      "question": "(c) Does the speed of sound increase or decrease on a hotter day? Justify.",
+      "options": [],
+      "answer": "The speed of sound increases on a hotter day because the speed of sound is directly proportional to the square root of the absolute temperature. As temperature increases, the speed of sound also increases.",
+      "explanation": "The speed of sound in a gas is affected by temperature. Higher temperatures lead to faster-moving air molecules, which transmit sound waves more quickly."
+    },
+    {
+      "question": "Establish the relationship between speed of sound, its wavelength and frequency.",
+      "options": [],
+      "answer": "The relationship between the speed of sound (v), its wavelength (λ), and frequency (f) is given by the equation: v = fλ.",
+      "explanation": "This is a fundamental equation in wave physics, relating the speed, frequency, and wavelength of a wave."
+    },
+    {
+      "question": "If speed of sound in air is 340 m s –1 , calculate. (a) wavelength when frequency is 256 Hz.",
+      "options": [],
+      "answer": "Wavelength (λ) = speed (v) / frequency (f) = 340 m/s / 256 Hz = 1.33 m",
+      "explanation": "Using the formula v = fλ, we can rearrange it to find wavelength: λ = v/f."
+    },
+    {
+      "question": "(b) frequency when wavelength is 0.85 m.",
+      "options": [],
+      "answer": "Frequency (f) = speed (v) / wavelength (λ) = 340 m/s / 0.85 m = 400 Hz",
+      "explanation": "Using the formula v = fλ, we can rearrange it to find frequency: f = v/λ."
+    },
+    {
+      "question": "How do fossil fuels cause air pollution?",
+      "options": [],
+      "answer": "Fossil fuels cause air pollution because burning them releases pollutants such as carbon dioxide, sulfur dioxide, nitrogen oxides, and particulate matter into the atmosphere.",
+      "explanation": "Combustion of fossil fuels releases various harmful gases and particles that contribute to air pollution and climate change."
+    },
+    {
+      "question": "Explain the role of the Sun in the formation of soil.",
+      "options": [],
+      "answer": "The Sun plays a vital role in soil formation through weathering. Solar radiation heats rocks, causing them to expand and contract, leading to cracks and eventual breakdown. The Sun also drives the water cycle, which contributes to chemical weathering.",
+      "explanation": "Physical and chemical weathering processes, driven by solar energy, break down rocks into smaller particles that form the basis of soil."
+    },
+    {
+      "question": "Number of atoms = Mass of substance Molar mass × N A × Number of atoms in the molecule",
+      "options": [
+        "18 g of water",
+        "18 g of oxygen",
+        "18 g of CO 2",
+        "18 g of CH 4"
+      ],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Is it true that in both the phenomena (diffusion and osmosis), there is movement of particles from region of higher concentration to that of lower concentration?",
+      "options": [],
+      "answer": "Yes, it is true. In both the phenomena, there is movement of particles from region of higher concentration to that of lower concentration. However, in case of osmosis the movement of solvent is through a semi permeable membrane which is permeable only to water molecules.",
+      "explanation": null
+    },
+    {
+      "question": "What is the ratio of N: H in NH3?",
+      "options": [],
+      "answer": "14:3",
+      "explanation": null
+    },
+    {
+      "question": "Provide the chemical formulas for the following compounds (a) Al(NO 3 ) 3 (b) Ca 3 (PO 4 ) 2 (c) HgCl 2 (d) Mg(CH 3 COO) 2",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Why does Helium atom has a valency of zero?",
+      "options": [],
+      "answer": "Helium atom has 2 electrons in its outermost shell and its duplet is complete.",
+      "explanation": null
+    },
+    {
+      "question": "What causes dehydration in intestine?",
+      "options": [],
+      "answer": "Exosmosis in intestine",
+      "explanation": null
+    },
+    {
+      "question": "On the basis of voluntary muscles – a, c On the basis of involuntary muscles– b, d",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Why petiole is swollen?",
+      "options": [],
+      "answer": "Due to aerenchyma present in the swollen petiole.",
+      "explanation": null
+    },
+    {
+      "question": "Name the bacteria that cause ulcers",
+      "options": [],
+      "answer": "Helicobactor pylori",
+      "explanation": null
+    },
+    {
+      "question": "Who discovered Helicobactor pylori?",
+      "options": [],
+      "answer": "Marshall and Warren.",
+      "explanation": null
+    },
+    {
+      "question": "Why is storage not needed?",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "Why are some things lignified?",
+      "options": [],
+      "answer": null,
+      "explanation": null
+    },
+    {
+      "question": "What is present in stone cells?",
+      "options": [],
+      "answer": "Sclerenchyma",
+      "explanation": null
+    },
+    {
+      "question": "What is presence?",
+      "options": [],
+      "answer": "Collenchyma",
+      "explanation": null
+    },
+    {
+      "question": "What is the average speed?",
+      "options": [],
+      "answer": "24 km/h",
+      "explanation": null
+    },
+    {
+      "question": "What is the ratio of C:O in CO?",
+      "options": [],
+      "answer": "3:4",
+      "explanation": null
+    },
+    {
+      "question": "What is the ratio of H:Cl in HCl?",
+      "options": [],
+      "answer": "2:71",
+      "explanation": null
+    },
+    {
+      "question": "What is the ratio of Al:F in AlF3?",
+      "options": [],
+      "answer": "9:19",
+      "explanation": null
+    },
+    {
+      "question": "What is the acceleration?",
+      "options": [],
+      "answer": "-8 m/s^2",
+      "explanation": null
+    },
+    {
+      "question": "What is the force?",
+      "options": [],
+      "answer": "0.5 N",
+      "explanation": null
+    },
+    {
+      "question": "What is the density of the sealed packet?",
+      "options": [],
+      "answer": "1.4 g/cm^-3",
+      "explanation": null
+    },
+    {
+      "question": "Will the packet sink or float?",
+      "options": [],
+      "answer": "The packet will sink.",
+      "explanation": null
+    },
+    {
+      "question": "What is the mass of the solution displaced?",
+      "options": [],
+      "answer": "420 g",
+      "explanation": null
+    },
+    {
+      "question": "Why is contour ploughing practiced?",
+      "options": [],
+      "answer": "This is practiced to check soil erosion through water currents on the slopes.",
+      "explanation": null
+    },
+    {
+      "question": "Why are fertile soils important?",
+      "options": [],
+      "answer": "Fertile soils are rich in organisms that decompose dead organic matter forming humus. Humus gives minerals, absorbs water and makes soil porous.",
+      "explanation": null
+    },
+    {
+      "question": "What are the useful traits of improved crops?",
+      "options": [],
+      "answer": "(a) higher yield (b) improved nutritional quality (c) resistance to biotic and abiotic stresses (d) change in maturity (e) wide range of adaptability (f) desired agronomic characteristics.",
+      "explanation": null
+    },
+    {
+      "question": "What are the merits of Italian bee variety Apis mellifera?",
+      "options": [],
+      "answer": "(a) It stings less. (b) It has high honey collection capacity. (c) It stays in given beehive for long periods and breeds very well.",
+      "explanation": null
+    },
+    {
+      "question": "Will a dilute milk solution show Tyndall effect?",
+      "options": [],
+      "answer": "Dilute milk solution is a colloid and would show Tyndall effect.",
+      "explanation": null
+    },
+    {
+      "question": "Will Salt solution show Tyndall effect?",
+      "options": [],
+      "answer": "Salt solution is a true solution and would not scatter light.",
+      "explanation": null
+    },
+    {
+      "question": "Definition of power",
+      "options": [],
+      "answer": "kW is the unit of power and kWh is the unit of energy.",
+      "explanation": null
+    },
+    {
+      "question": "Calculate KE1 : KE2 if v1 = v and v2 = 3v, given KE1 = 1/2 * mv^2 and KE2 = 1/2 * m(3v)^2",
+      "options": [],
+      "answer": "KE 1 : KE 2 = 1/2 mv^2 : 9/2 mv^2 = 1:9",
+      "explanation": null
+    },
+    {
+      "question": "Calculate p1 : p2 if p1 = mv and p2 = m * 3v",
+      "options": [],
+      "answer": "p 1 : p 2 = mv : 3 mv = 1 : 3",
+      "explanation": null
+    },
+    {
+      "question": "Calculate the work done if F = 2500 N and s = 1 m",
+      "options": [],
+      "answer": "W = F . s = 2500 N m = 2500 J",
+      "explanation": null
+    },
+    {
+      "question": "What is the work done if the box does not move at all while holding it?",
+      "options": [],
+      "answer": "Zero, as the box does not move at all while holding it.",
+      "explanation": null
+    },
+    {
+      "question": "Why do men get tired while holding the box?",
+      "options": [],
+      "answer": "In order to hold the box men are applying a force which is opposite and equal to the gravitational force acting on the box. While applying the force men make muscular effort. So they get tired.",
+      "explanation": null
+    },
+    {
+      "question": "What is echo?",
+      "options": [],
+      "answer": "Echo",
+      "explanation": null
+    },
+    {
+      "question": "Calculate the time if distance is 20m and speed is 340m/s (assuming the distance is twice the actual distance).",
+      "options": [],
+      "answer": "time = 0.1 s",
+      "explanation": null
+    },
+    {
+      "question": "How does temperature affect the speed of sound?",
+      "options": [],
+      "answer": "The speed of sound increases with temperature. So on a hotter day speed of sound is more.",
+      "explanation": null
+    },
+    {
+      "question": "Derive the relationship v = vλ",
+      "options": [],
+      "answer": "v = vλ (Derivation)",
+      "explanation": null
+    },
+    {
+      "question": "Calculate wavelength if 340 = 256 * λ",
+      "options": [],
+      "answer": "λ = 1.33 m",
+      "explanation": null
+    },
+    {
+      "question": "Calculate v if 340 = v * 0.85",
+      "options": [],
+      "answer": "v = 400 Hz",
+      "explanation": null
+    },
+    {
+      "question": "Explain what happens when fossil fuels are burned",
+      "options": [],
+      "answer": "The fossil fuels like coal and petroleum contain small amounts of nitrogen and sulphur. When fossil fuels are burnt, it produces oxides of nitrogen and sulphur. These gases cause inhalation problems and in presence of rain forms acid rain. Burning of fossil fuels also increases the amount of suspended particles in air that reduce the visibility.",
+      "explanation": null
+    },
+    {
+      "question": "Explain why rocks crack.",
+      "options": [],
+      "answer": "The rocks are heated by the sun; they contract during night but not at same rate —resulting in cracks in rocks and ultimately to smaller particles.",
+      "explanation": null
+    }
+  ]
+}
